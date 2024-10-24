@@ -19,7 +19,7 @@ const Index = () => {
           <div className="mt-4 p-4 bg-gray-50 rounded-lg">
             <div className="flex flex-col items-center">
               <img 
-                src="/woman-smartphone.jpg" 
+                src="https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg"
                 alt="スマートフォンを操作する女性" 
                 className="w-full max-w-md rounded-lg shadow-md mb-4"
               />
