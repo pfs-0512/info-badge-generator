@@ -1,93 +1,180 @@
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gray-50 py-12">
-      <div className="container mx-auto px-4">
-        <h1 className="text-3xl font-bold text-center text-gray-800 mb-4">PTA会員向けプラン</h1>
-        <h2 className="text-xl text-center text-gray-600 mb-12">プラン詳細</h2>
-
-        {/* Aプラン */}
-        <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-md p-6 mb-8">
-          <div className="text-2xl font-bold text-center text-blue-600 mb-2">Aプラン</div>
-          <div className="text-center text-gray-600 mb-4">無料</div>
-          <div className="flex items-center justify-between p-4 bg-gray-50 rounded mb-4">
-            <span className="text-[#ED7584] text-[28px]">PTA情報配信システム</span>
-            <span className="text-sm text-blue-600 font-medium">[12月リリース]</span>
-          </div>
-          <button className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition-colors">
-            申し込む
+    <div className="min-h-screen bg-gray-50">
+      {/* Header */}
+      <header className="sticky top-0 z-50 w-full bg-white shadow-sm transition-all">
+        <div className="container mx-auto flex items-center justify-between py-4">
+          <img src="/logo.png" alt="Logo" className="h-8" />
+          <button className="bg-[#ED7584] text-white px-6 py-2 rounded hover:bg-[#ED7584]/90 transition-colors">
+            申込む
           </button>
         </div>
+      </header>
 
-        {/* Bプラン */}
-        <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-md p-6 mb-8">
-          <div className="text-2xl font-bold text-center text-blue-600 mb-2">Bプラン</div>
-          <div className="text-center text-gray-600 mb-4">月額300円(税込)</div>
-          <div className="flex items-center justify-between p-4 bg-gray-50 rounded mb-4">
-            <span className="text-[#ED7584] text-[28px]">PTA情報配信システム</span>
-            <span className="text-sm text-blue-600 font-medium">[12月リリース]</span>
-          </div>
-          <div className="p-4 bg-gray-50 rounded mb-4">
-            <span className="text-gray-700 text-[28px]">会員制便得サービス</span>
-          </div>
-          <div className="flex items-center justify-between p-4 bg-gray-50 rounded mb-4">
-            <span className="text-[#FABE00] text-[28px]">オンラインスクール有料視聴チケット</span>
-            <span className="text-sm text-blue-600 font-medium">[11月リリース]</span>
-          </div>
-          <button className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition-colors">
-            申し込む
-          </button>
+      {/* Page Title */}
+      <div className="container mx-auto px-4 py-12">
+        <div className="text-center space-y-2">
+          <h1 className="text-[#ED7584] text-3xl font-bold">PTA会員向けプラン</h1>
+          <h2 className="text-2xl font-bold">プラン詳細</h2>
         </div>
 
-        {/* Cプラン */}
-        <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-md p-6 mb-8">
-          <div className="text-2xl font-bold text-center text-blue-600 mb-2">Cプラン</div>
-          <div className="text-center text-gray-600 mb-4">月額500円(税込)</div>
-          <div className="text-center text-yellow-500 text-sm font-medium mb-4">特別サービス付き！</div>
-          <div className="flex items-center justify-between p-4 bg-gray-50 rounded mb-4">
-            <span className="text-[#ED7584] text-[28px]">PTA情報配信システム</span>
-            <span className="text-sm text-blue-600 font-medium">[12月リリース]</span>
-          </div>
-          <div className="p-4 bg-gray-50 rounded mb-4">
-            <span className="text-gray-700 text-[28px]">会員制便得サービス</span>
-          </div>
-          <div className="flex items-center justify-between p-4 bg-gray-50 rounded mb-4">
-            <span className="text-[#FABE00] text-[28px]">オンラインスクール有料視聴チケット</span>
-            <span className="text-sm text-blue-600 font-medium">[11月リリース]</span>
-          </div>
-          <div className="text-center text-sm text-gray-600 mt-4 mb-4">
-            日常生活で役に立つ様々なサービスが受けられるプラン
-          </div>
-          <button className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition-colors">
-            申し込む
-          </button>
-        </div>
+        {/* Plans */}
+        <div className="max-w-2xl mx-auto space-y-8 mt-12">
+          {/* Aプラン */}
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <h2 className="text-2xl font-bold text-center text-blue-600 mb-4">Aプラン</h2>
+            <p className="text-center text-2xl mb-6">無料</p>
+            
+            <Accordion type="single" collapsible>
+              <AccordionItem value="item-1">
+                <AccordionTrigger className="bg-gray-50 p-4 rounded-lg">
+                  <span className="text-[#ED7584] text-[28px]">PTA情報配信システム</span>
+                  <span className="text-sm text-blue-600 font-medium ml-2">[12月リリース]</span>
+                </AccordionTrigger>
+                <AccordionContent className="p-4">
+                  <div className="space-y-4">
+                    <h3 className="text-xl font-bold text-center">リアルタイム配信</h3>
+                    <p className="text-center">PTAと保護者をつなぐ</p>
+                    <p className="text-center">情報配信システム</p>
+                    <div className="text-center mt-4">
+                      <img src="/sec01img01.png" alt="配信システム" className="w-[70%] mx-auto" />
+                    </div>
+                    <p className="text-center">
+                      今まで中々届かなかったPTAからの有益な情報がリアルタイムで届くようになります!
+                    </p>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
 
-        {/* Dプラン */}
-        <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-md p-6">
-          <div className="text-2xl font-bold text-center text-blue-600 mb-2">Dプラン</div>
-          <div className="text-center text-gray-600 mb-4">月額800円(税込)</div>
-          <div className="text-center text-yellow-500 text-sm font-medium mb-2">2ヶ月後1,600円キャッシュバック</div>
-          <div className="text-center text-yellow-500 text-sm font-medium mb-4">特別サービス付き！</div>
-          <div className="flex items-center justify-between p-4 bg-gray-50 rounded mb-4">
-            <span className="text-[#ED7584] text-[28px]">PTA情報配信システム</span>
-            <span className="text-sm text-blue-600 font-medium">[12月リリース]</span>
+            <button className="w-full bg-blue-500 text-white py-3 rounded-lg mt-6 hover:bg-blue-600 transition-colors">
+              申し込む
+            </button>
           </div>
-          <div className="p-4 bg-gray-50 rounded mb-4">
-            <span className="text-gray-700 text-[28px]">会員制便得サービス</span>
+
+          {/* Bプラン */}
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <div className="flex items-center justify-center gap-2 mb-4">
+              <h2 className="text-2xl font-bold text-blue-600">Bプラン</h2>
+              <img src="/sec04img01.png" alt="icon" className="w-8 h-8" />
+            </div>
+            <p className="text-center text-2xl mb-6">月額300円(税込)</p>
+
+            <Accordion type="single" collapsible>
+              <AccordionItem value="item-2">
+                <AccordionTrigger className="bg-gray-50 p-4 rounded-lg">
+                  <span className="text-[#ED7584] text-[28px]">PTA情報配信システム</span>
+                  <span className="text-sm text-blue-600 font-medium ml-2">[12月リリース]</span>
+                </AccordionTrigger>
+                <AccordionContent className="p-4">
+                  <div className="space-y-4">
+                    <h3 className="text-xl font-bold text-center">リアルタイム配信</h3>
+                    <p className="text-center">PTAと保護者をつなぐ</p>
+                    <p className="text-center">情報配信システム</p>
+                    <div className="text-center mt-4">
+                      <img src="/sec01img01.png" alt="配信システム" className="w-[70%] mx-auto" />
+                    </div>
+                    <p className="text-center">
+                      今まで中々届かなかったPTAからの有益な情報がリアルタイムで届くようになります!
+                    </p>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+
+            <Accordion type="single" collapsible>
+              <AccordionItem value="item-3">
+                <AccordionTrigger className="bg-gray-50 p-4 rounded-lg">
+                  <span className="text-[#FABE00] text-[28px]">会員制優待サービス</span>
+                </AccordionTrigger>
+                <AccordionContent className="p-4">
+                  <div className="space-y-4">
+                    <h3 className="text-xl font-bold text-center">会員制優待サービス</h3>
+                    <p className="text-center">全国約<span className="color size">20</span><span className="color">万</span>件の会員制優待サービスがご利用できます！</p>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+
+            <button className="w-full bg-blue-500 text-white py-3 rounded-lg mt-6 hover:bg-blue-600 transition-colors">
+              申し込む
+            </button>
           </div>
-          <div className="flex items-center justify-between p-4 bg-gray-50 rounded mb-4">
-            <span className="text-[#FABE00] text-[28px]">オンラインスクール有料視聴チケット</span>
-            <span className="text-sm text-blue-600 font-medium">[11月リリース]</span>
+
+          {/* Cプラン */}
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <div className="flex items-center justify-center gap-2 mb-4">
+              <h2 className="text-2xl font-bold text-blue-600">Cプラン</h2>
+              <img src="/sec04img01.png" alt="icon" className="w-8 h-8" />
+            </div>
+            <p className="text-center text-2xl mb-6">月額500円(税込)</p>
+            <p className="text-center text-yellow-500 text-sm font-medium mb-4">特別サービス付き！</p>
+
+            <Accordion type="single" collapsible>
+              <AccordionItem value="item-4">
+                <AccordionTrigger className="bg-gray-50 p-4 rounded-lg">
+                  <span className="text-[#ED7584] text-[28px]">PTA情報配信システム</span>
+                  <span className="text-sm text-blue-600 font-medium ml-2">[12月リリース]</span>
+                </AccordionTrigger>
+                <AccordionContent className="p-4">
+                  <div className="space-y-4">
+                    <h3 className="text-xl font-bold text-center">リアルタイム配信</h3>
+                    <p className="text-center">PTAと保護者をつなぐ</p>
+                    <p className="text-center">情報配信システム</p>
+                    <div className="text-center mt-4">
+                      <img src="/sec01img01.png" alt="配信システム" className="w-[70%] mx-auto" />
+                    </div>
+                    <p className="text-center">
+                      今まで中々届かなかったPTAからの有益な情報がリアルタイムで届くようになります!
+                    </p>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+
+            <button className="w-full bg-blue-500 text-white py-3 rounded-lg mt-6 hover:bg-blue-600 transition-colors">
+              申し込む
+            </button>
           </div>
-          <div className="p-4 bg-gray-50 rounded mb-4">
-            <span className="text-gray-700 text-[28px]">モバイル安心サポート保険</span>
+
+          {/* Dプラン */}
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <div className="flex items-center justify-center gap-2 mb-4">
+              <h2 className="text-2xl font-bold text-blue-600">Dプラン</h2>
+              <img src="/sec04img01.png" alt="icon" className="w-8 h-8" />
+            </div>
+            <p className="text-center text-2xl mb-6">月額800円(税込)</p>
+            <p className="text-center text-yellow-500 text-sm font-medium mb-4">2ヶ月後1,600円キャッシュバック</p>
+            <p className="text-center text-yellow-500 text-sm font-medium mb-4">特別サービス付き！</p>
+
+            <Accordion type="single" collapsible>
+              <AccordionItem value="item-5">
+                <AccordionTrigger className="bg-gray-50 p-4 rounded-lg">
+                  <span className="text-[#ED7584] text-[28px]">PTA情報配信システム</span>
+                  <span className="text-sm text-blue-600 font-medium ml-2">[12月リリース]</span>
+                </AccordionTrigger>
+                <AccordionContent className="p-4">
+                  <div className="space-y-4">
+                    <h3 className="text-xl font-bold text-center">リアルタイム配信</h3>
+                    <p className="text-center">PTAと保護者をつなぐ</p>
+                    <p className="text-center">情報配信システム</p>
+                    <div className="text-center mt-4">
+                      <img src="/sec01img01.png" alt="配信システム" className="w-[70%] mx-auto" />
+                    </div>
+                    <p className="text-center">
+                      今まで中々届かなかったPTAからの有益な情報がリアルタイムで届くようになります!
+                    </p>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+
+            <button className="w-full bg-blue-500 text-white py-3 rounded-lg mt-6 hover:bg-blue-600 transition-colors">
+              申し込む
+            </button>
           </div>
-          <div className="text-center text-sm text-gray-600 mt-4 mb-4">
-            Cプランの内容に加え、スマホの紛失や修理時に対応できる保険機能も備わったプラン
-          </div>
-          <button className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition-colors">
-            申し込む
-          </button>
         </div>
       </div>
     </div>

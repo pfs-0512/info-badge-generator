@@ -6,32 +6,23 @@
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
-
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
-
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-
     --primary: 222.2 47.4% 11.2%;
     --primary-foreground: 210 40% 98%;
-
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
-
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
-
     --accent: 210 40% 96.1%;
     --accent-foreground: 222.2 47.4% 11.2%;
-
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
-
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
-
     --radius: 0.5rem;
   }
 
@@ -70,8 +61,41 @@
   * {
     @apply border-border;
   }
-
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Custom styles for the plan sections */
+.accordion-trigger[data-state='open'] {
+  @apply bg-gray-100;
+}
+
+.plan-title {
+  @apply text-2xl font-bold text-blue-600 text-center mb-4;
+}
+
+.plan-price {
+  @apply text-center text-2xl mb-6;
+}
+
+.special-service {
+  @apply text-center text-yellow-500 text-sm font-medium mb-4;
+}
+
+/* Custom colors for service boxes */
+.haisin-box {
+  @apply text-[#ED7584];
+}
+
+.yuutai-box {
+  @apply text-gray-700;
+}
+
+.online-box {
+  @apply text-[#FABE00];
+}
+
+.hoken-box {
+  @apply text-gray-700;
 }
