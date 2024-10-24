@@ -12,7 +12,7 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between p-4 bg-[#F3F9FC] rounded mb-4 gap-2">
             <span className="text-[#ED7584] text-xl sm:text-[28px]">PTA情報配信システム</span>
             <div className="flex items-center gap-2 bg-blue-700 text-white px-3 py-1.5 rounded-lg text-sm whitespace-nowrap">
-              <span className="font-semibold">12月</span><span>オープン予定</span>
+              <span className="font-semibold">12月オープン予定</span>
             </div>
           </div>
           <div className="mt-4 p-4 bg-gray-50 rounded-lg">
@@ -36,7 +36,7 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between p-4 bg-[#F3F9FC] rounded mb-4 gap-2">
             <span className="text-[#ED7584] text-xl sm:text-[28px]">PTA情報配信システム</span>
             <div className="flex items-center gap-2 bg-blue-700 text-white px-3 py-1.5 rounded-lg text-sm whitespace-nowrap">
-              <span className="font-semibold">12月</span><span>オープン予定</span>
+              <span className="font-semibold">12月オープン予定</span>
             </div>
           </div>
           <div className="p-4 bg-[#F3F9FC] rounded mb-4">
@@ -45,7 +45,7 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between p-4 bg-[#F3F9FC] rounded mb-4 gap-2">
             <span className="text-[#FABE00] text-xl sm:text-[28px]">オンラインスクール有料視聴チケット</span>
             <div className="flex items-center gap-2 bg-blue-700 text-white px-3 py-1.5 rounded-lg text-sm whitespace-nowrap">
-              <span className="font-semibold">11月</span><span>オープン予定</span>
+              <span className="font-semibold">11月オープン予定</span>
             </div>
           </div>
           <button className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition-colors">
@@ -61,7 +61,7 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between p-4 bg-[#F3F9FC] rounded mb-4 gap-2">
             <span className="text-[#ED7584] text-xl sm:text-[28px]">PTA情報配信システム</span>
             <div className="flex items-center gap-2 bg-blue-700 text-white px-3 py-1.5 rounded-lg text-sm whitespace-nowrap">
-              <span className="font-semibold">12月</span><span>オープン予定</span>
+              <span className="font-semibold">12月オープン予定</span>
             </div>
           </div>
           <div className="p-4 bg-[#F3F9FC] rounded mb-4">
@@ -70,7 +70,7 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between p-4 bg-[#F3F9FC] rounded mb-4 gap-2">
             <span className="text-[#FABE00] text-xl sm:text-[28px]">オンラインスクール有料視聴チケット</span>
             <div className="flex items-center gap-2 bg-blue-700 text-white px-3 py-1.5 rounded-lg text-sm whitespace-nowrap">
-              <span className="font-semibold">11月</span><span>オープン予定</span>
+              <span className="font-semibold">11月オープン予定</span>
             </div>
           </div>
           <div className="text-center text-sm text-gray-600 mt-4 mb-4">
@@ -90,7 +90,7 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between p-4 bg-[#F3F9FC] rounded mb-4 gap-2">
             <span className="text-[#ED7584] text-xl sm:text-[28px]">PTA情報配信システム</span>
             <div className="flex items-center gap-2 bg-blue-700 text-white px-3 py-1.5 rounded-lg text-sm whitespace-nowrap">
-              <span className="font-semibold">12月</span><span>オープン予定</span>
+              <span className="font-semibold">12月オープン予定</span>
             </div>
           </div>
           <div className="p-4 bg-[#F3F9FC] rounded mb-4">
@@ -99,7 +99,7 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between p-4 bg-[#F3F9FC] rounded mb-4 gap-2">
             <span className="text-[#FABE00] text-xl sm:text-[28px]">オンラインスクール有料視聴チケット</span>
             <div className="flex items-center gap-2 bg-blue-700 text-white px-3 py-1.5 rounded-lg text-sm whitespace-nowrap">
-              <span className="font-semibold">11月</span><span>オープン予定</span>
+              <span className="font-semibold">11月オープン予定</span>
             </div>
           </div>
           <div className="p-4 bg-[#F3F9FC] rounded mb-4">
