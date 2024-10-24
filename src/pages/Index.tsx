@@ -27,7 +27,7 @@ const Index = () => {
             <span className="text-sm text-blue-600 font-medium">[12月リリース]</span>
           </div>
           <div className="p-4 bg-gray-50 rounded mb-4">
-            <span className="text-gray-700">会員制便得サービス</span>
+            <span className="text-gray-700 text-[28px]">会員制便得サービス</span>
           </div>
           <div className="flex items-center justify-between p-4 bg-gray-50 rounded mb-4">
             <span className="text-gray-700 text-[28px]">オンラインスクール有料視聴チケット</span>
@@ -48,7 +48,7 @@ const Index = () => {
             <span className="text-sm text-blue-600 font-medium">[12月リリース]</span>
           </div>
           <div className="p-4 bg-gray-50 rounded mb-4">
-            <span className="text-gray-700">会員制便得サービス</span>
+            <span className="text-gray-700 text-[28px]">会員制便得サービス</span>
           </div>
           <div className="flex items-center justify-between p-4 bg-gray-50 rounded mb-4">
             <span className="text-gray-700 text-[28px]">オンラインスクール有料視聴チケット</span>
@@ -73,14 +73,14 @@ const Index = () => {
             <span className="text-sm text-blue-600 font-medium">[12月リリース]</span>
           </div>
           <div className="p-4 bg-gray-50 rounded mb-4">
-            <span className="text-gray-700">会員制便得サービス</span>
+            <span className="text-gray-700 text-[28px]">会員制便得サービス</span>
           </div>
           <div className="flex items-center justify-between p-4 bg-gray-50 rounded mb-4">
             <span className="text-gray-700 text-[28px]">オンラインスクール有料視聴チケット</span>
             <span className="text-sm text-blue-600 font-medium">[11月リリース]</span>
           </div>
           <div className="p-4 bg-gray-50 rounded mb-4">
-            <span className="text-gray-700">モバイル安心サポート保険</span>
+            <span className="text-gray-700 text-[28px]">モバイル安心サポート保険</span>
           </div>
           <div className="text-center text-sm text-gray-600 mt-4 mb-4">
             Cプランの内容に加え、スマホの紛失や修理時に対応できる保険機能も備わったプラン
