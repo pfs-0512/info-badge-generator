@@ -24,8 +24,7 @@ const Index = () => {
                 className="w-full max-w-md rounded-lg shadow-md mb-4"
               />
               <p className="text-gray-700 text-sm leading-relaxed">
-                PTAの重要な情報をスマートフォンで簡単に確認できます。
-                通知機能により、大切なお知らせも見逃しません。
+                今まで中々届かなかったPTAからの有益な情報がリアルタイムで届くようになります!
               </p>
             </div>
           </div>
