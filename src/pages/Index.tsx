@@ -10,7 +10,7 @@ const Index = () => {
           <div className="text-2xl font-bold text-center text-blue-600 mb-2">Aプラン</div>
           <div className="text-center text-gray-600 mb-4">無料</div>
           <div className="flex items-center justify-between p-4 bg-gray-50 rounded mb-4">
-            <span className="text-gray-700">PTA情報配信システム</span>
+            <span className="text-gray-700 text-[28px]">PTA情報配信システム</span>
             <span className="text-sm text-blue-600 font-medium">[12月リリース]</span>
           </div>
           <button className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition-colors">
@@ -23,14 +23,14 @@ const Index = () => {
           <div className="text-2xl font-bold text-center text-blue-600 mb-2">Bプラン</div>
           <div className="text-center text-gray-600 mb-4">月額300円(税込)</div>
           <div className="flex items-center justify-between p-4 bg-gray-50 rounded mb-4">
-            <span className="text-gray-700">PTA情報配信システム</span>
+            <span className="text-gray-700 text-[28px]">PTA情報配信システム</span>
             <span className="text-sm text-blue-600 font-medium">[12月リリース]</span>
           </div>
           <div className="p-4 bg-gray-50 rounded mb-4">
             <span className="text-gray-700">会員制便得サービス</span>
           </div>
           <div className="flex items-center justify-between p-4 bg-gray-50 rounded mb-4">
-            <span className="text-gray-700">オンラインスクール有料視聴チケット</span>
+            <span className="text-gray-700 text-[28px]">オンラインスクール有料視聴チケット</span>
             <span className="text-sm text-blue-600 font-medium">[11月リリース]</span>
           </div>
           <button className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition-colors">
@@ -44,14 +44,14 @@ const Index = () => {
           <div className="text-center text-gray-600 mb-4">月額500円(税込)</div>
           <div className="text-center text-yellow-500 text-sm font-medium mb-4">特別サービス付き！</div>
           <div className="flex items-center justify-between p-4 bg-gray-50 rounded mb-4">
-            <span className="text-gray-700">PTA情報配信システム</span>
+            <span className="text-gray-700 text-[28px]">PTA情報配信システム</span>
             <span className="text-sm text-blue-600 font-medium">[12月リリース]</span>
           </div>
           <div className="p-4 bg-gray-50 rounded mb-4">
             <span className="text-gray-700">会員制便得サービス</span>
           </div>
           <div className="flex items-center justify-between p-4 bg-gray-50 rounded mb-4">
-            <span className="text-gray-700">オンラインスクール有料視聴チケット</span>
+            <span className="text-gray-700 text-[28px]">オンラインスクール有料視聴チケット</span>
             <span className="text-sm text-blue-600 font-medium">[11月リリース]</span>
           </div>
           <div className="text-center text-sm text-gray-600 mt-4 mb-4">
@@ -69,14 +69,14 @@ const Index = () => {
           <div className="text-center text-yellow-500 text-sm font-medium mb-2">2ヶ月後1,600円キャッシュバック</div>
           <div className="text-center text-yellow-500 text-sm font-medium mb-4">特別サービス付き！</div>
           <div className="flex items-center justify-between p-4 bg-gray-50 rounded mb-4">
-            <span className="text-gray-700">PTA情報配信システム</span>
+            <span className="text-gray-700 text-[28px]">PTA情報配信システム</span>
             <span className="text-sm text-blue-600 font-medium">[12月リリース]</span>
           </div>
           <div className="p-4 bg-gray-50 rounded mb-4">
             <span className="text-gray-700">会員制便得サービス</span>
           </div>
           <div className="flex items-center justify-between p-4 bg-gray-50 rounded mb-4">
-            <span className="text-gray-700">オンラインスクール有料視聴チケット</span>
+            <span className="text-gray-700 text-[28px]">オンラインスクール有料視聴チケット</span>
             <span className="text-sm text-blue-600 font-medium">[11月リリース]</span>
           </div>
           <div className="p-4 bg-gray-50 rounded mb-4">
