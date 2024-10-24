@@ -16,9 +16,19 @@ const Index = () => {
               <span>オープン予定</span>
             </div>
           </div>
-          <button className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition-colors">
-            申し込む
-          </button>
+          <div className="mt-4 p-4 bg-gray-50 rounded-lg">
+            <div className="flex flex-col items-center">
+              <img 
+                src="/woman-smartphone.jpg" 
+                alt="スマートフォンを操作する女性" 
+                className="w-full max-w-md rounded-lg shadow-md mb-4"
+              />
+              <p className="text-gray-700 text-sm leading-relaxed">
+                PTAの重要な情報をスマートフォンで簡単に確認できます。
+                通知機能により、大切なお知らせも見逃しません。
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* Bプラン */}
